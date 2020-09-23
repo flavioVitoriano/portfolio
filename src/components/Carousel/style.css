@@ -1,0 +1,7 @@
+﻿.carousel-portfolio img {
+  height: 95vh;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.45);
+}

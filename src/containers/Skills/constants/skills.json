@@ -1,0 +1,8 @@
+﻿[
+    {"value": 90, "label": "Python", "funnyLabel": "Minha linguagem preferida"},
+    {"value": 75, "label": "Javascript", "funnyLabel": "Pequenos scripts e claro, frontend"},
+    {"value": 80, "label": "React", "funnyLabel": "A melhor lib para design"},
+    {"value": 79, "label": "Django & Django Rest Framework", "funnyLabel": "Meu primeiro framework web"},
+    {"value": 42, "label": "HTML & CSS (pure)", "funnyLabel": "Desenvolvendo meu lado artistico" },
+    {"value": 73, "label": "SQL (MySQL & PostgreSQL)", "funnyLabel": "O poder das consultas"}
+]
