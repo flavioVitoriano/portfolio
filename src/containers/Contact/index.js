@@ -4,10 +4,9 @@ import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <Element name="contact" className="element">
-      <div id="contact-section" className="section">
+      <div id="contact-section" className="content">
         <div>
-          <Container fluid>
+          <Container>
             <h1 className=" display-3">Contato</h1>
             <hr />
             <p className="lead">
@@ -26,7 +25,6 @@ const Contact = () => {
           </Container>
         </div>
       </div>
-    </Element>
   );
 };
 

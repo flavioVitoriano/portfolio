@@ -2,15 +2,13 @@
 import { Container, Row, Col } from "reactstrap";
 import profileimg from "../../assets/img/profile.jpg";
 import resume from "../../constants/resume.json";
-import { Element } from "react-scroll";
 import "./styles.css";
 
 const AboutMe = () => {
   return (
-    <Element name="about-me" className="element">
-      <div id="about-me-section" className="section">
-        <Container fluid>
-          <h1 className=" display-3">Sobre mim</h1>
+      <div id="about-me-section" className="content">
+        <Container>
+          <h1 className="display-3">Sobre mim</h1>
           <hr />
           <Row>
             <Col md={9} xs={9}>
@@ -34,7 +32,6 @@ const AboutMe = () => {
           </Row>
         </Container>
       </div>
-    </Element>
   );
 };
 
