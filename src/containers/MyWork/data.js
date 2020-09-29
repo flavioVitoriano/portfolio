@@ -3,6 +3,10 @@ import tela1 from "../../assets/works/eletivaspro/tela01.png";
 import tela2 from "../../assets/works/eletivaspro/tela02.png";
 import tela3 from "../../assets/works/eletivaspro/tela03.png";
 import tela4 from "../../assets/works/eletivaspro/tela04.png";
+import sige1 from "../../assets/works/sige/cliente_list.png";
+import sige2 from "../../assets/works/sige/cliente_create.png";
+import sige3 from "../../assets/works/sige/orcamento_entrada.png";
+import sige4 from "../../assets/works/sige/produto_create.png";
 
 
 const works = [
@@ -47,6 +51,42 @@ const works = [
         caption: "Tela 4",
         header: "",
         key: "5",
+      },
+    ],
+  },
+  {
+    title: "F WEB SIGE",
+    thumbnail: sige1,
+    description: "Um sige web focado para empresas automobilísticas, feito com as funções básicas de um SIGE, com os módulos de cadastro, entrada, saídas e relatórios. Melhorias estão em progresso",
+    used: ["Django", "Django-rest-framework", "react", "reactjs", "postgresql", "mobx", "material ui", "selenium"],
+      items: [
+      {
+        src: sige1,
+        altText: "sige01",
+        caption: "Lista de clientes",
+        header: "",
+        key: "1",
+      },
+      {
+        src: sige2,
+        altText: "sige02",
+        caption: "Criação de clientes",
+        header: "",
+        key: "2",
+      },
+      {
+        src: sige3,
+        altText: "sige03",
+        caption: "Criação de orçamentos",
+        header: "",
+        key: "3",
+      },
+      {
+        src: sige4,
+        altText: "sige04",
+        caption: "Criação de produtos",
+        header: "",
+        key: "4",
       },
     ],
   },
