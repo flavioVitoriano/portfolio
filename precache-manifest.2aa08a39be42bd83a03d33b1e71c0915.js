@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0665bfa344efb84bff8595239cf976ce",
+    "revision": "df3cf1be713b9ccd0fe8bd4872f5882a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1f6fee6bdd6ee50c7cb7",
+    "revision": "443d6f87fc267b9a5c53",
     "url": "/portfolio/static/css/2.91f82eac.chunk.css"
   },
   {
-    "revision": "737e54e92ec9c1e47344",
+    "revision": "09fc75e087fcdabd14cf",
     "url": "/portfolio/static/css/main.1d37f04c.chunk.css"
   },
   {
-    "revision": "1f6fee6bdd6ee50c7cb7",
-    "url": "/portfolio/static/js/2.4090839e.chunk.js"
+    "revision": "443d6f87fc267b9a5c53",
+    "url": "/portfolio/static/js/2.1fdef6ab.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.4090839e.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1fdef6ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "737e54e92ec9c1e47344",
-    "url": "/portfolio/static/js/main.49a4d780.chunk.js"
+    "revision": "09fc75e087fcdabd14cf",
+    "url": "/portfolio/static/js/main.ab329993.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/github.76d344f0.svg"
   },
   {
+    "revision": "9c6126a5483c615cb0285b5f6e6d0434",
+    "url": "/portfolio/static/media/importacao.9c6126a5.png"
+  },
+  {
     "revision": "9e36c8fd15d6f93ed6a45f9484746e8f",
     "url": "/portfolio/static/media/linkedin.9e36c8fd.svg"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83accefbe66d6173ae355e57cfac1c18",
     "url": "/portfolio/static/media/orcamento_entrada.83accefb.png"
+  },
+  {
+    "revision": "a251b5724043dc9540f00170de3f363e",
+    "url": "/portfolio/static/media/organizacao.a251b572.png"
   },
   {
     "revision": "2fae5ae87b47e5dc3ee7dd585650cd92",
@@ -82,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b423b82487ba83ce272e5f11d35c5753",
     "url": "/portfolio/static/media/tela04.b423b824.png"
+  },
+  {
+    "revision": "7aa36a9fce99beec26e1bb46b6059052",
+    "url": "/portfolio/static/media/usuarios.7aa36a9f.png"
   }
 ]);
