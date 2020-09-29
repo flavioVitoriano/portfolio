@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { CardGroup, Container, Row, Col } from "reactstrap";
 import PortfolioItem from "../../components/PortfolioItem";
-import back2 from "../../assets/img/back2.jpg";
+import works from './data';
 
 const MyWork = () => {
   return (
@@ -11,15 +11,9 @@ const MyWork = () => {
         <hr />
         <CardGroup>
           <Row>
-            <Col className="mx-0">
-              <PortfolioItem thumbnail={back2} title="Eletivas PRO" />
-            </Col>
-            <Col className="mx-0">
-              <PortfolioItem thumbnail={back2} title="Eletivas PRO" />
-            </Col>
-            <Col className="mx-0">
-              <PortfolioItem thumbnail={back2} title="Eletivas PRO" />
-            </Col>
+            {works.map((item) => 
+              <Col sm={12} md={6} xl={4}><PortfolioItem {...item}/></Col>
+              )}
           </Row>
         </CardGroup>
       </Container>
