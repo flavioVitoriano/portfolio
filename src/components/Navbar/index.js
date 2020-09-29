@@ -3,12 +3,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  Nav,
-  NavItem,
   NavLink,
 } from "reactstrap";
-import { Link } from "react-scroll";
 import "./style.css";
+import Scrollspy from "react-scrollspy";
 
 const PortfolioNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,64 +27,27 @@ const PortfolioNav = () => {
       <Navbar fixed="top" className="navbar" color={bg} dark expand="md">
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav navbar className="justify-content-center mx-auto">
-            <NavItem>
-              <NavLink
-                tag={Link}
-                activeClass="nav-active"
-                to="about-me"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-                href="#about-me"
-              >
-                Sobre mim
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                tag={Link}
-                activeClass="nav-active"
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={500}
-                href="#skills"
-              >
-                Habilidades
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                tag={Link}
-                activeClass="nav-active"
-                to="my-work"
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={500}
-                href="#my-work"
-              >
-                Meu Trabalho
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                tag={Link}
-                activeClass="nav-active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={500}
-                href="#contact"
-              >
-                Contato
-              </NavLink>
-            </NavItem>
-          </Nav>
+          <div className="navbar navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <Scrollspy
+              items={["about-me", "skills", "my-work", "contact"]}
+              currentClassName="nav-active"
+              className="justify-content-center mx-auto navbar-nav"
+              offset={-10}
+            >
+            <li className="nav-item">
+              <NavLink href="#about-me">Sobre mim</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink href="#skills">Habilidades</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink href="#my-work">Meu Trabalho</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink href="#contact">Contato</NavLink>
+            </li>
+            </Scrollspy>
+          </div>
         </Collapse>
       </Navbar>
     </div>
